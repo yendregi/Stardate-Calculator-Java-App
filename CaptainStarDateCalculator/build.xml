@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="StarDate Calculator">
+	<!-- the ant build file for the 'StarDate Calculator' -->
+	<!-- @author: AKW -->
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+	
+    <path id="StarDate Calculator.classpath">
+        <pathelement location="bin"/>
+    </path>
+	
+    <target name="init">
+        <mkdir dir="bin"/>
+    	<mkdir dir="release"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+	
+    <target name="clean">
+        <delete dir="bin"/>
+    	<delete dir="release"/>
+    </target>
+	
+    <target depends="clean" name="cleanall"/>
+    
+	<target depends="clean,build-project" name="build"/>
+	
+    <target depends="init" name="build-project">
+        <echo message="Building StarDate Calculator ..."/>
+    	<!-- compile the project -->
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="StarDate Calculator.classpath"/>
+        </javac>
+    	<!-- create a jar for the project -->
+    	 <jar destfile="release/CaptainsStarDate.jar">
+    	    <fileset dir="bin"/>
+    	    <manifest>
+    	      <attribute name="Permissions" value="GNU Public"/>
+    	      <attribute name="Codebase" value="com.yendregi"/>    	      
+    	      <attribute name="Implementation-Vendor" value="Yendregi Publications"/>
+    	      <attribute name="Implementation-Title" value="StarDate Calculator"/>
+    	      <attribute name="Implementation-Version" value="71351.052"/> 
+    	      <attribute name="Main-Class" value="com.yendregi.stardate.CaptainsStarDate"/>
+    	    </manifest>
+    	  </jar>
+    	<!-- output executables to launch the jar file from the release folder -->
+    	<echo file="release/run.bat" append="false">start "StartDate Calc" /B javaw.exe -jar CaptainsStarDate.jar</echo>
+    	<echo file="release/run.sh" append="false">java -jar CaptainsStarDate.jar &amp;</echo>
+    </target>
+
+</project>

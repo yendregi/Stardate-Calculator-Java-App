@@ -1,0 +1,1 @@
+start "StartDate Calc" /B javaw.exe -jar CaptainsStarDate.jar
