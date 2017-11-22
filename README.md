@@ -9,12 +9,24 @@ positively increasing number such as '71356.901' and I can now stamp whatever re
 
 ## What does the UI looks like ?
 The widget sits in your task bar such as following UI examples:
+
 ### Windows: 
 ![windows taskbar](CaptainStarDateCalculator/docs/imgs/windows_task_bar.png)
+
 ### Linux
 ![linux taskbar](CaptainStarDateCalculator/docs/imgs/linux_task_bar.png)
+
 ### Mac 
 ![mac taskbar](CaptainStarDateCalculator/docs/imgs/mac_task_bar.png)
+
+### When you 'left' click the taskbar icon you'll get an option of:
+![taskbar items](CaptainStarDateCalculator/docs/imgs/TaskBar_Left_ClickAction.png)
+
+#### Upon Selecting the 'Skins' selection, you'll get the full list of skins that are available:
+![skins included](CaptainStarDateCalculator/docs/imgs/Skin_List.png)
+
+## Custom Configuration
+Check out the 'CaptainStarDateCalculator/src/conf/CaptainsStarDate.properties' file for a full view of all the skins published with this release and how to code **your** own skin. 
 
 ## So how do I run it ?
 a. download this repository either by git or simply the download button
@@ -24,7 +36,7 @@ to run the application.
 
 i.   Under Windows: execute the run.bat
 
-ii.  Under Linux: execute the run.sh through a terminal... or simply 'java -jar CaptainsStarDate.jar'
+ii.  Under Linux: execute the run.sh through a terminal... or simply 'java -jar CaptainsStarDate.jar' from a terminal
 
 iii. Under Mac: it's simple enough to double click the jar file, however you'll be presented with a security check saying the application publisher can't be authenticated, hence, you have to go to preference > privacy & security and enable the jar file to run:
 ![mac security 1](CaptainStarDateCalculator/docs/imgs/Mac_Security_P1.png)
@@ -32,6 +44,15 @@ Once you have accepted the 'Open Anyway' button, you'll lastly be present with t
 ![mac security 1](CaptainStarDateCalculator/docs/imgs/Mac_Security_P2.png)
 Post hitting the 'Open' button you'll be able to run this app/jar anytime !
 
+## Know Issues:
+
+I.   Under Windows 7+, this app runs fine as this is 'development' environment I've mostly run and tested against... so basically it runs without problems.
+
+II.  Under Linux, this app is less buggy, and pretty much works just as the windows environment
+
+III. Under Mac, this app is oddly buggy, that is, the right and left click's are some what confused with the overall system->jvm events. 
+UI... it works, there are curious moving issues as well as raising and lowering the app from focus.... 
+I solely blame Apple and their lack of JVM compliance as compared to the regular *x86 stream
 
 
 
