@@ -29,16 +29,21 @@ From here, your choice of skin will be applied to the StarDate UI
 ### The StarDate UI
 While hovering over the tray icon will show the stardate time plus the real time, one is also able to double click on the 
 tray icon _**(double click in win/*nix - mac you need a mouse with the right/left button)**_ the themed StarDate UI comes to life such as:
+
 ![Vulcan Unlocked Skin](CaptainStarDateCalculator/docs/imgs/Vuclan_UI_Unlocked.png)
 
 While the 'StarDate UI' is visible, one can click into the value of the StarDate and change the value of the StarDate + hit enter to get the relevant StarDate:
+
 ![Edit StarDate Example](CaptainStarDateCalculator/docs/imgs/stardate_text_selected.png)
 
 It is also possible to select the edit the real date by clicking on 'real' date/time and editing the date-string to whatever value you want to see the StarDate:
+
 ![Edit StarDate RealDateExample](CaptainStarDateCalculator/docs/imgs/realdate_text_selected.png)
+
 For example, we can enter the following dates and get back the StarDates:
 * Wed May 31 07:45:14 PST 1999 : 52877.795
 * Mon May 31 07:45:14 PST 1999 : 52877.795
+
 This does imply a certain amount of spoofing checking thanks to the Java Calendar library
 
 ### Locked or Not
