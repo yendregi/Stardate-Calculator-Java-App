@@ -22,7 +22,7 @@ Under Mac: it's simple enough to double click the jar file, however you'll be pr
 ![mac security 1](CaptainStarDateCalculator/docs/imgs/Mac_Security_P1.png)
 Once you have accepted the 'Open Anyway' button, you'll lastly be present with the last warning:
 ![mac security 1](CaptainStarDateCalculator/docs/imgs/Mac_Security_P2.png)
-Post that little bit you'll be able to run this app/jar anytime !
+Post hitting the 'Open' button you'll be able to run this app/jar anytime !
 
 
 
