@@ -68,6 +68,6 @@ I solely blame Apple and their lack of JVM compliance as compared to the regular
 ## Credits:
 As read from 'main'
 * Initial algorithm to compute a 'StarDate' comes from the script © Phillip L. Sublett : http://TrekGuide.com
-* Panels created for this application based off: http://www.lcars.org.uk/lcars_Alien_panels.htm
+* Panels created for this application are loosely based off images from: http://www.lcars.org.uk/lcars_Alien_panels.htm
 
 
