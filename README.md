@@ -60,7 +60,7 @@ Each skin comes with it's own custom location for the button + a unique animatio
 Check out the 'CaptainStarDateCalculator/src/conf/CaptainsStarDate.properties' file for a full view of all the skins published with this release and how to code **your** own skin. 
 
 ## So how do I run it ?
-a. download this repository either by git or simply the download button
+a. download this repository either by git or simply the 'Clone or download' button
 
 b. you can either build the entire app from scratch with apache ant and run the build.xml to generate the current release or use the executables under CaptainStarDateCalculator/release_71351.052_jdk_1.8
 to run the application.
