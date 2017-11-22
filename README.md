@@ -25,6 +25,17 @@ The widget sits in your task bar such as following UI examples:
 #### Upon Selecting the 'Skins' selection, you'll get the full list of skins that are available:
 ![skins included](CaptainStarDateCalculator/docs/imgs/Skin_List.png)
 
+### Locked or Not
+Each skin comes with a configurable button that allows a user to define where the button to set the application as always "visible" is placed.
+In the example of the default Vulcan skin (my determined favourite I created), below are images of when the action to lock or not are set.
+Each skin comes with it's own custom location for the button + a unique animation for that particular action!
+
+#### Vulcan Unlocked Skin
+![Vulcan Unlocked Skin](CaptainStarDateCalculator/docs/imgs/Vuclan_UI_Unlocked.png)
+
+#### Vulcan Locked Skin
+![Vulcan Locked Skin](CaptainStarDateCalculator/docs/imgs/Vulcan_UI_Locked.png)
+
 ## Custom Configuration
 Check out the 'CaptainStarDateCalculator/src/conf/CaptainsStarDate.properties' file for a full view of all the skins published with this release and how to code **your** own skin. 
 
@@ -48,7 +59,7 @@ Post hitting the 'Open' button you'll be able to run this app/jar anytime !
 
 I.   Under Windows 7+, this app runs fine as this is 'development' environment I've mostly run and tested against... so basically it runs without problems.
 
-II.  Under Linux, this app is less buggy, and pretty much works just as the windows environment
+II.  Under Linux, this app is less buggy, and pretty much works just as the windows environment with one or two minor issues I have encountered (all due to oddities with the awt related libraries)
 
 III. Under Mac, this app is oddly buggy, that is, the right and left click's are some what confused with the overall system->jvm events. 
 UI... it works, there are curious moving issues as well as raising and lowering the app from focus.... 
