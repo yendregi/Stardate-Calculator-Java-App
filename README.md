@@ -65,5 +65,9 @@ III. Under Mac, this app is oddly buggy, that is, the right and left click's are
 UI... it works, there are curious moving issues as well as raising and lowering the app from focus.... 
 I solely blame Apple and their lack of JVM compliance as compared to the regular *x86 stream
 
+## Credits:
+As read from 'main'
+* Initial algorithm to compute a 'StarDate' comes from the script © Phillip L. Sublett : http://TrekGuide.com
+* Panels created for this application based off: http://www.lcars.org.uk/lcars_Alien_panels.htm
 
 
