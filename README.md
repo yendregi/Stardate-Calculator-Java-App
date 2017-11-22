@@ -8,9 +8,13 @@ For instance: suppose with each code checkin we want to capture a unique identif
 positively increasing number such as '71356.901' and I can now stamp whatever record with that number which represents the date/time : 'Tue Nov 21 19:36:00 PST 2017'
 
 ## What does the UI looks like ?
-The widget sits in your task bar such as :
-<windows img>, <linux img>, <mac imc>
-
+The widget sits in your task bar such as following UI examples:
+### Windows: 
+![windows taskbar](CaptainStarDateCalculator/docs/imgs/windows_task_bar.png)
+### Linux
+![linux taskbar](CaptainStarDateCalculator/docs/imgs/linux_task_bar.png)
+### Mac 
+![mac taskbar](CaptainStarDateCalculator/docs/imgs/mac_task_bar.png)
 
 ## So how do I run it ?
 a. download this repository either by git or simply the download button
