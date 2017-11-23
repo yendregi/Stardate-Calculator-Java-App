@@ -32,7 +32,7 @@ tray icon _**(double click in win/*nix - mac you need a mouse with the right/lef
 
 ![Vulcan Unlocked Skin](CaptainStarDateCalculator/docs/imgs/Vuclan_UI_Unlocked.png)
 
-While the 'StarDate UI' is visible, one can click into the value of the StarDate and change the value of the StarDate + hit enter to get the relevant StarDate:
+While the 'StarDate UI' is visible, one can click into the value of the StarDate and change the value of the StarDate + hit enter to get the relevant 'real' date:
 
 ![Edit StarDate Example](CaptainStarDateCalculator/docs/imgs/stardate_text_selected.png)
 
@@ -52,6 +52,7 @@ In the example of the default Vulcan skin (my determined favourite I created), b
 Each skin comes with it's own custom location for the button + a unique animation for that particular action!
 
 #### Vulcan Unlocked Skin
+![Vulcan Locked Skin](CaptainStarDateCalculator/docs/imgs/Vulcan_UI_Unlocked.png)
 
 #### Vulcan Locked Skin
 ![Vulcan Locked Skin](CaptainStarDateCalculator/docs/imgs/Vulcan_UI_Locked.png)
