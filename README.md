@@ -46,13 +46,13 @@ For example, we can enter the following dates and get back the StarDates:
 
 This does imply a certain amount of spoofing checking thanks to the Java Calendar library
 
-### Locked or Not
+### Locked or Not 
 Each skin comes with a configurable button that allows a user to define where the button to set the application as always "visible" is placed.
 In the example of the default Vulcan skin (my determined favourite I created), below are images of when the action to lock or not are set.
 Each skin comes with it's own custom location for the button + a unique animation for that particular action!
 
 #### Vulcan Unlocked Skin
-![Vulcan Locked Skin](CaptainStarDateCalculator/docs/imgs/Vulcan_UI_Unlocked.png)
+![Vulcan Locked Skin](CaptainStarDateCalculator/docs/imgs/Vuclan_UI_Unlocked.png)
 
 #### Vulcan Locked Skin
 ![Vulcan Locked Skin](CaptainStarDateCalculator/docs/imgs/Vulcan_UI_Locked.png)
