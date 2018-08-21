@@ -1,4 +1,4 @@
-# Star Date Widget
+# Java StarDate Widget
 A Java StarDate Trek Themed TaskBar Widget 
 
 ## WHY?
