@@ -1,5 +1,5 @@
 # Java StarDate App
-A Java StarDate Trek Themed TaskBar Widget 
+A Java StarDate Trek Themed TaskBar App 
 
 ## WHY?
 Firstly, I will ask the question for you fine reader; why this application?
