@@ -24,10 +24,11 @@ The widget sits in your task bar such as following UI examples:
 
 #### Upon Selecting the 'Skins' selection, you'll get the full list of skins that are available:
 ![skins included](CaptainStarDateCalculator/docs/imgs/Skin_List.png)
+
 From here, your choice of skin will be applied to the StarDate UI
 
 ### The StarDate UI
-While hovering over the tray icon will show the stardate time plus the real time, one is also able to double click on the 
+Hovering over the tray icon will show the stardate time plus the real time, one is also able to double click on the 
 tray icon _**(double click in win/*nix - mac you need a mouse with the right/left button)**_ the themed StarDate UI comes to life such as:
 
 ![Vulcan Unlocked Skin](CaptainStarDateCalculator/docs/imgs/Vuclan_UI_Unlocked.png)
@@ -44,7 +45,7 @@ For example, we can enter the following dates and get back the StarDates:
 * Wed May 31 07:45:14 PST 1999 : 52877.795
 * Mon May 31 07:45:14 PST 1999 : 52877.795
 
-This does imply a certain amount of spoofing checking thanks to the Java Calendar library
+This does imply a certain amount of spoof checking thanks to the Java Calendar library
 
 ### Locked or Not 
 Each skin comes with a configurable button that allows a user to define where the button to set the application as always "visible" is placed.
