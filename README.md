@@ -1,4 +1,4 @@
-# Free Stardate Calculator Java App
+# Stardate Calculator Java App
 A Free Stardate Calculator Java App : A Trek Themed TaskBar App 
 
 ## WHY?
