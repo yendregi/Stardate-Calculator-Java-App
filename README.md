@@ -94,4 +94,5 @@ As read from 'main'
 ## TO DO:
 * Make this an Android or iOS APP !
 	- BY THE POWER OF LIBGDX !!!
-  -  
+	- ![He-Man](He-Man.gif)
+  
