@@ -4,7 +4,7 @@ A Free Stardate Calculator Java App : A Trek Themed TaskBar App
 ## WHY?
 Firstly, I will ask the question for you fine reader; why this application?
 Well, I needed a way to mark down particular date/times with a positively increasing number that can mapped back to a particular event.
-For instance: suppose with each code checkin we want to capture a unique identifier ... well, with the stardate widget I can capture a 
+For instance: suppose with each code check-in we want to capture a unique identifier ... well, with the stardate widget I can capture a 
 positively increasing number such as '71356.901' and I can now stamp whatever record with that number which represents the date/time : 'Tue Nov 21 19:36:00 PST 2017'
 
 ## What does the UI looks like ?
